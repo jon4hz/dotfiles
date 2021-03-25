@@ -11,7 +11,7 @@ export SSH_AUTH_SOCK=(gpgconf --list-dirs agent-ssh-socket)
 # ENV
 export PATH="$HOME/go/bin/:$PATH"
 export VISUAL = "vim"
-export GOPATH="$HOME/golib:/home/jonah/go" 
+export GOPATH="$HOME/golib:$HOME/go" 
 
 # TERRAFORM
 export TF_VAR_digitalocean_token="nope"
